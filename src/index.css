@@ -1,0 +1,77 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 98vh;
+  width: 98vw;
+  background: linear-gradient(
+    lightblue,
+    white,
+    lightblue
+  );
+}
+
+.App {
+  height: 98vh;
+  width: 98vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  height: 75vh;
+  width: 41vw;
+  border: 0.25rem solid rgb(78, 40, 25);
+  background-color: rgba(94, 49, 44, 0.451);
+  border-radius: 2rem;
+}
+
+.display {
+  height: 19vh;
+  width: 35vw;
+  margin: 1vh auto 0 auto;
+  background-color: black;
+  color: white;
+  border-radius: 1rem;
+  padding: 0.5rem;
+}
+
+.display h2 {
+  height: 9vh;
+  width: 100%;
+  text-align: right;
+}
+
+.row-flexrow {
+  display: flex;
+  flex-direction: row;
+}
+.row-flexcolumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  height: 9vh;
+  width: 9vw;
+  margin-left: 1vw;
+  margin-top: 1vh;
+  font-weight: 800;
+  border-radius: 1rem;
+}
+.two-columns {
+  width: 19vw;
+}
+
+.two-rows {
+  height: 19vh;
+}
+
+.active {
+  background-color: rgba(94, 49, 44, 0.451);
+  color: white;
+}
